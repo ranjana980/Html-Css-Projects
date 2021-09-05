@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+h1{color:darkblue;
+}
+h2{color: blue;
+}
+body{background-color: lightgrey;
+}
+.column {
+  float: left;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main_div{display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+img {
+  border: 10px solid #555;
+}
+
+h1 {text-align: center;}
+h2{text-align: center;}
+</style>
+<h1 style="font-family:'Courier New'" style="font-size:100px">My Gallary</h1>
+<div class="main_div">
+ <div class="row">
+  <div class="column">
+    <img src="bday.jpg" class="image3" >
+  </div>
+  <div class="column">
+    <img src="bday2.jpg" class="image4" >
+  </div>
+  <div class="column">
+    <img src="bday1.jpg" class="image4" >
+  </div>
+  <div class="column">
+    <img src="bday8.jpg" class="image4" >
+  </div>
+  <div class="column">
+    <img src="bday3.jpg" padding="50" >
+  </div>
+  <div class="column">
+    <img src="bday4.jpg" class="image4" >
+  </div>
+  <div class="column">
+    <img src="bday5.jpg" class="image4">
+  </div>
+  <div class="column">
+    <img src="bday7.jpg" class="image2" >
+  </div>  
+  
+ </div> 
+</div>
+ 
+</body>
+</html>
+
